@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f0f1f, #1b1b33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 400px;
+    padding: 45px;
+    border-radius: 20px;
+    background: #1f1f2f;
+    border: 3px solid #0ff;
+    box-shadow: 0 15px 50px rgba(0, 255, 255, 0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #0ff;
+    text-shadow: 0 0 6px #0ff, 0 0 14px #00bfff;
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 2px solid #333;
+    background: #111122;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #0ff;
+    box-shadow: 0 0 8px #0ff, 0 0 14px #00bfff;
+    transform: scale(1.02);
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+/* Button Styles */
+.btn-login {
+    background: linear-gradient(90deg, #0ff, #00bfff);
+    color: #111122;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #00bfff;
+}
+
+.btn-login:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 20px #0ff, 0 0 35px #00bfff;
+}
+
+.btn-register {
+    background: linear-gradient(90deg, #ff00ff, #b200ff);
+    color: #111122;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #b200ff;
+}
+
+.btn-register:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 20px #ff00ff, 0 0 35px #b200ff;
+}
+
+.btn-google {
+    background: transparent;
+    color: #0ff;
+    border: 2px solid #0ff;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #00bfff;
+}
+
+.btn-google:hover {
+    background: #0ff;
+    color: #111122;
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 0 20px #0ff, 0 0 35px #00bfff;
+}
